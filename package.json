@@ -1,6 +1,6 @@
 {
-  "name": "Globaltokencore",
-  "description": "Globaltoken Library",
+  "name": "HTH Core",
+  "description": "HTH Library",
   "version": "0.1.39",
   "author": {
     "name": "globaltokendevteam",
@@ -21,10 +21,10 @@
     }
   ],
   "keywords": [
-    "globaltoken",
+    "helpthehomeless",
     "glt",
     "satoshi",
-	"globaltokshi",
+	"hthsatoshi",
     "money",
     "currency",
     "virtual"
@@ -32,7 +32,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/globaltoken/Globaltokencore.git"
+    "url": "https://github.com/MichaelHDesigns/hthcore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",

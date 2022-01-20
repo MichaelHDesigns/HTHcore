@@ -6,7 +6,7 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('C708D32D'),
+  magic: hex('EEAEEACC'),
   addressVersion: 0x26,
   privKeyVersion: 0xa6,
   P2SHVersion: 141,
@@ -17,16 +17,16 @@ exports.livenet = {
     hash: hex('B6D3240D3996511B23B401F611EB137439378188736B4A34933E3EFE00000000'),
     merkle_root: hex('FC7F82994203580179E1D0CF77F32828C2BB4C94A5A60C188C45449476CE17E2'),
     height: 0,
-    nonce: 2864352084,
+      nonce: 53681,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1480961109,
-    bits: 486604799,
+      timestamp: 1570073000,
+      bits: 1f00ffff,
   },
   dnsSeeds: [
-    '134.255.221.7'
+    '73.150.182.108'
   ],
-  defaultClientPort: 9319
+  defaultClientPort: 65000
 };
 
 exports.mainnet = exports.livenet;
